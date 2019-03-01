@@ -5,6 +5,7 @@ gcc main.c -lSDL  -o MDextract
 
 
 example :
+
 MDextract rom.bin
 
 H/V address size :
