@@ -1,15 +1,12 @@
 # MDextract
 
-
 compilation
-gcc main.c -lSDL  -o neoextract
+gcc main.c -lSDL  -o MDextract
 
 
 example :
-neoextract 052-c1.bin
-neoextract 052-s1.bin
+MDextract rom.bin
 
+H/V address size :
 
-You can make a drag / drop
-I advise you extracted to a folder
-
+MDextract rom.bin 0 3 0x200 0x8000
